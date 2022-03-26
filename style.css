@@ -13,7 +13,8 @@ body {
 
 a {
     text-decoration: none;
-    color: #f9faf8;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 li {
@@ -42,7 +43,44 @@ ul {
     justify-content: right;
 }
 
+
+
 .top {
     display: flex;
-
+    padding: 48px 128px 100px;
+    justify-content: space-between;
+    gap: 32px;
 }
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin-bottom: 0;
+}
+
+.top img,
+.left {
+    max-width: 700px;
+    flex: 1;
+}
+
+img {
+    border: 3px solid rgb(27, 190, 245);
+    background-color: gray;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.left button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    border: #3882f6;
+    color: #f9faf8;
+}
+
