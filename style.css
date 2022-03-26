@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+.header,
+.top,
+.footer {
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+li {
+    list-style: none;
+    margin-left: 32px;
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1 0 auto;
+}
+
+.header {
+    display: flex;
+    padding: 0 48px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 300px;
+}
+
+ul {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: right;
+}
+
+.top {
+    display: flex;
+
+}
