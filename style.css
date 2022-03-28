@@ -136,3 +136,23 @@ h2 {
     height: 150px;
     margin-bottom: 8px;
 }
+
+
+.quote {
+    margin: 0;
+    padding: 200px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: #e5e7eb;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;    
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+
